@@ -1,0 +1,32 @@
+# Local data
+archive/
+*.zip
+
+# Experiment artifacts
+results/*/checkpoints/
+results/*/histories/
+results/*/predictions/
+results/*/metrics/*_metrics.csv
+
+# Keep curated summaries
+!results/*/metrics/summary_metrics.csv
+
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local tooling
+.agents/
+.vscode/
+.idea/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Operating system and logs
+.DS_Store
+Thumbs.db
+*.log
